@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 4</title>
+
+    <script>
+        var notaUm = window.prompt("Insira sua nota do primeiro Bimestre");
+        var notaDois = window.prompt("Insira sua nota do segundo Bimestre");
+        var somaNotas = Number(notaUm) + Number(notaDois);
+        var faltam = 60 - somaNotas;
+
+        if (somaNotas>60){
+            document.write('Você foi aprovado!');
+        } else {
+            document.write('Você foi reprovado, e faltaram ' +faltam+ ' ponto(s) para a aprovação');
+        }
+        
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
